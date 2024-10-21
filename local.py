@@ -9,7 +9,7 @@ import requests
 # res = requests.post("http://localhost:8888/Applications/MAMP/htdocs/"
 #                     "cinema/10", {'movie': 'sfgver',
 #                                 'description': 'wefwe', 'rating': 7.9})
-
+#
 res = requests.put("http://localhost:8888/Applications/MAMP/htdocs/"
                     "cinema/10", {'movie': 'sfgver',
                                 'description': 'wefwe', 'rating': 9.5})
